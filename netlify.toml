@@ -1,21 +1,11 @@
-# Netlify configuration
-
 [build]
   publish = "."
 
-# Cache control for service worker
 [[headers]]
   for = "/sw.js"
   [headers.values]
     Cache-Control = "no-cache"
 
-# Cache fonts longer
-[[headers]]
-  for = "*.woff2"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000"
-
-# SPA fallback
 [[redirects]]
   from = "/*"
   to = "/index.html"
