@@ -1,0 +1,18 @@
+{
+  "name": "裸辭日記",
+  "short_name": "裸辭日記",
+  "description": "透過目標、規劃減低裸辭路上的焦慮與不安",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#F9F6F1",
+  "theme_color": "#B8907A",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23F9F6F1'/><text y='68' x='50' text-anchor='middle' font-size='55'>🌿</text></svg>",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
