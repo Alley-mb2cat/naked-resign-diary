@@ -1,4 +1,4 @@
-const CACHE_NAME = 'naked-resign-diary-v6';
+const CACHE_NAME = 'naked-resign-diary-v2';
 const ASSETS = ['./index.html'];
 
 self.addEventListener('install', e => {
